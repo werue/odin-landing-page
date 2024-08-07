@@ -1,0 +1,30 @@
+p,ul,h1,h2,button{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+    padding:0 10%;
+    /*background-color:#1F2937;*/
+}
+
+.header-nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-links{
+    display:flex;
+    gap:16px;
+}
+
+.header-hero{
+    display:flex;
+    padding:160px 0;
+}
