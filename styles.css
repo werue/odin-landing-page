@@ -1,6 +1,11 @@
-p,ul,h1,h2,button{
+body,p,ul,h1,h2,button{
     margin:0;
     padding:0;
+    border:none;
+}
+
+body{
+    font-family:'Roboto', Arial, sans-serif;
 }
 
 ul{
@@ -11,12 +16,21 @@ ul{
     display:flex;
     flex-direction:column;
     padding:0 10%;
-    /*background-color:#1F2937;*/
+
+    background-color:#1F2937;
+    color:#FAF9F8;
 }
 
 .header-nav{
     display:flex;
     justify-content:space-between;
+    align-items:center;
+    padding-top:16px;
+}
+
+.header-logo{
+    font-size:24px;
+    font-weight:800;
 }
 
 .header-links{
@@ -24,7 +38,32 @@ ul{
     gap:16px;
 }
 
+.hero_text{
+    font-size:48px;
+    font-weight:800;
+}
+
+.hero_secondary_text{
+    font-size:18px;
+    color:#E5E7EB;
+}
+
 .header-hero{
     display:flex;
+    gap:64px;
     padding:160px 0;
+}
+
+/*.header-hero-form{
+
+}*/
+
+.sign-up-btn{
+    background-color:#3882F6;
+    color:inherit;
+    padding: 8px 32px;
+    border-radius:10px;
+
+    font-weight:800;
+    font-size:16px;
 }
