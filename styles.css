@@ -68,3 +68,31 @@ ul{
     font-weight:800;
     font-size:16px;
 }
+
+.hero-image{
+    background-color:lightgray;
+    width:600px;
+    height:250px;
+    flex:none;
+}
+
+.info{
+    text-align:center;
+    padding: 0 20%;
+}
+
+.info-heading{
+    padding:40px;
+    font-size:36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.info-body{
+    display:flex;
+    justify-content:space-between;
+}
+
+.info-piece{
+    width:150px;
+}
