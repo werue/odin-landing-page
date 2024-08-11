@@ -142,3 +142,11 @@ ul{
 .call .sign-up-btn{
     border:3px #FAF9F8 solid;
 }
+
+.footer{
+    background-color:#1F2937;
+    display:flex;
+    justify-content:center;
+    padding:32px;
+
+}
