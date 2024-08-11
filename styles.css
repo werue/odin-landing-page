@@ -70,7 +70,7 @@ ul{
 }
 
 .hero-image{
-    background-color:lightgray;
+    background-color:gray;
     width:600px;
     height:250px;
     flex:none;
@@ -122,4 +122,23 @@ ul{
     font-size: 20px;
     align-self:flex-end;
     padding-right:56px;
+}
+
+.call-container{
+    padding:160px 15%;
+}
+
+.call{
+    background-color:#3882F6;
+    color:#FAF9F8;
+    padding:48px 10%;
+    border-radius:10px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.call .sign-up-btn{
+    border:3px #FAF9F8 solid;
 }
