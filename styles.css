@@ -148,5 +148,11 @@ ul{
     display:flex;
     justify-content:center;
     padding:32px;
+}
 
+.sign-up-btn:hover{
+    transition:0.5s;
+    background-color:#FAF9F8;
+    color:#3882F6;
+    cursor:pointer;
 }
